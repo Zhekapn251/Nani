@@ -1,0 +1,32 @@
+; English <en> to Ukrainian <uk> localization document for `StartNovel` naninovel script
+
+# 81cca336
+; @input name summary:"Choose your name." 
+@input name summary:"Введіть ваше ім'я." 
+# fee78388
+; Aiko: "Hello, {G_Name}. Nice to meet you! I've found something incredible, a quest that might just change everything."
+Aiko: "Привіт, {G_Name}. Рада зустрітися з тобою! Я знайшла щось неймовірне, квест, який може все змінити."
+# 198e39e1
+; Player: "Hi, Aiko. Nice to meet you too. What's this quest about?"
+Player: "Привіт, Айко. Також радий зустрітися. Про що цей квест?"
+# 3a427208
+; Aiko: "Our world, as you know, is a blend of advanced tech and nature. But there's more—hidden knowledge and power, lost since ancient times. I discovered a map, an artifact leading to a city where the past and future merge, holding secrets to this power."
+Aiko: "Наш світ, як ти знаєш, є поєднанням передових технологій і природи. Але є ще щось — приховані знання та сила, втрачені з давніх часів. Я виявила карту, артефакт, який веде до міста, де минуле і майбутнє зливаються, тримаючи секрети цієї сили."
+# 773039c6
+; Player: "Sounds like quite the adventure. But why me?"
+Player: "Звучить як чудова пригода. Але чому я?"
+# 30b1f783
+; Aiko: "This quest isn't just about brute force or simple exploration. It's about understanding the fabric of our reality, solving complex puzzles that blend the digital with the physical. Your skills in technology, game development, and digital creation are exactly what we need to navigate the challenges ahead and unlock the mysteries of the lost city."
+Aiko: "Цей квест не просто про силу чи просте дослідження. Це про розуміння тканини нашої реальності, розв'язування складних головоломок, які поєднують цифрове з фізичним. Твої навички в технологіях, розробці ігор та цифровому створенні - саме те, що нам потрібно для подолання викликів на шляху та розкриття таємниць загубленого міста."
+# ba2466a2
+; Player: "I see. Unraveling the mysteries of the past with our present skills. Count me in. What's our first step?"
+Player: "Розумію. Розкривати таємниці минулого з нашими сучасними навичками. Я з тобою. Який наш перший крок?"
+# 306bc824
+; Aiko: "Excellent! Our first step is to decipher the map further and plan our journey. The road ahead is fraught with dangers, but I believe together we can uncover the secrets of the lost city and perhaps, change the course of our world."
+Aiko: "Чудово! Наш перший крок - це детальніше розшифрувати карту та спланувати нашу подорож. Шлях перед нами сповнений небезпек, але я вірю, що разом ми можемо розкрити секрети загубленого міста і, можливо, змінити хід нашого світу."
+# 6e69b399
+; @choice "Continue {G_Name} from the next line"
+@choice "Продовжити {G_Name} з наступного рядка"
+# 700ff4b6
+; @choice "Load another from start" goto:Miho
+@choice "Завантажити інше з початку" goto:Miho
