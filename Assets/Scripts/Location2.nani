@@ -1,0 +1,29 @@
+@back Loc2Bg transition:Dissolve 
+@hideChars
+@bgm acoustic
+@char Miho look:Right pos:20,0
+@char Miho look:Right pos:25,0 time:2
+@char Player look:Left pos:90,0 
+@char Player look:Left pos:75,0 
+@char Player look:Left pos:75,0  scale:1.1,1.1
+Player: Hello, I'm on a quest for something precious. Might you assist me?
+@char Player look:Left pos:75,0  scale:1,1
+@char Miho.Open look:Right pos:25,0 scale:1.1,1.1
+Miho: Ah, a seeker on a noble journey! I would offer my aid, but alas, I have none to give. 
+Miho: However, I wish you the brightest of fortunes on your path.
+@loadScene
+@choice Continue button:Buttons/resumeGame pos:0,0
+@stop
+@set G_Quest2="<s>Won mini game</s>"
+@char Miho.Smile look:Right pos:25,0 scale:1,1
+@char Player.Happy look:Left pos:75,0  scale:1.1,1.1
+Player: Any guidance you could provide would be invaluable.
+@char Player look:Left pos:75,0  scale:1,1
+Miho: In that case, seek the technology store. 
+Miho: There, among circuits and wires, you might find what you're searching for.
+@set G_Quest3="<s>Asked about location</s>"
+@hidePrinter
+@goto Location3
+@stopBgm
+@hideChars
+@stop

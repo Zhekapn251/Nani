@@ -1,0 +1,11 @@
+@hidePrinter
+@hideChars
+@hideAll
+@bgm menu
+@back Map
+@choice handler:ButtonArea button:Buttons/Loc1 pos:-250,-200 goto:Location1_1
+@choice handler:ButtonArea button:Buttons/Loc2 pos:25,220 goto:Location2_1
+@choice handler:ButtonArea button:Buttons/Loc3 pos:150,-20 goto:Location3
+@stopBgm
+@hideChars
+@stop

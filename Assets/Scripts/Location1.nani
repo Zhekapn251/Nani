@@ -1,0 +1,30 @@
+@back Loc1Bg transition:CloudReveal
+@hideChars
+@bgm guitar
+@char Aiko pos:90,0
+@char Aiko pos:70,0 time:2
+@char Player look:Right pos:10,0 
+<i>You approached the most beautiful woman in the world to strike up a conversation.</i>
+Aiko: Hello, my name is Aiko.
+Player: Greetings, pretty. I'm {G_Name}.
+Player: Would you like to date me? 
+@char Aiko.Shame scale:1.1,1.1
+Aiko: I would be delighted, but I am far too splendid for you as you are now. 
+Aiko: You must find a mysterious item to win my heart. 
+@char Aiko.Smile scale:1,1
+@char Player.Confused look:Right pos:10,0 scale:1.1,1.1
+Player: What is it location?
+@char Aiko.Base scale:1,1
+@char Player.Normal look:Right pos:10,0 scale:1,1
+Aiko: I cannot say for sure, but begin your search at the hospital.
+Aiko: Your quest will be fraught with trials.
+@showUI QuestLog
+Aiko: Here is Monitor, it will show you progress of youre task. 
+@set G_Quest1="<s>Quest received</s>"
+@char Player look:Right pos:25,0 
+Player: Ok 
+@hidePrinter
+@hideChars
+@stopBgm
+@goto Location2 
+@stop

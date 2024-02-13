@@ -1,0 +1,48 @@
+@back Loc2Bg
+@hideChars
+@goto .Main if:"(!G_PhonePlayer && !G_PhoneMiho && !G_PhoneAiko)"
+@goto .Kind if:(G_PhoneMiho)
+@goto .Angry if:(!G_PhoneMiho)
+@stop
+
+#Main
+@bgm piano
+@char Player.Normal look:Left pos:90,0 transition:CloudReveal
+Player: Whats hapening. Where are everyone.
+@char Player.Cry look:Left pos:90,0 transition:CloudReveal
+Player: What should i do next?
+@char Player.Happy look:Left pos:90,0 transition:CloudReveal
+Player: Let's chech cafe again
+@char Player look:Left pos:75,0 
+@set G_Quest5="<s>Decided what to do</s>"
+@hidePrinter
+@stopBgm
+@hideChars
+@goto Location1_1
+@stop
+
+#Angry
+@bgm drum
+@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
+@char Miho.Base look:Right pos:20,0
+@char Miho.Base look:Right pos:25,0 time:2
+@char Player.Normal look:Left pos:90,0 
+Miho: Incredible, you really don't see all that I've done for you!
+@char Player.Shocked look:Left pos:75,0 
+Player: I'm sorry, it wasn't an easy decision, but I had to choose.
+@stopBgm
+@hideChars
+@stop 
+
+#Kind
+@bgm piano
+@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map 
+@char Miho.Smile look:Right pos:20,0
+@char Miho.Smile look:Right pos:25,0 time:2
+@char Player.Normal look:Left pos:90,0 
+Miho: Oh, thank you! You're a true knight, brave and generous.
+@char Player.Happy look:Left pos:75,0 
+Player: Your help was invaluable to me, and this is my way of thanking you.
+@stopBgm
+@hideChars
+@stop 

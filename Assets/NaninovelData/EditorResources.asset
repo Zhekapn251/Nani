@@ -17,7 +17,7 @@ MonoBehaviour:
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+      guid: aedcf42c633586f4fafc3e2f4ff7b18a
   - Id: TextPrinters/7924797b-99af-4a87-9e7b-6a05faed5e68
     Resources:
     - name: Fullscreen
@@ -42,7 +42,7 @@ MonoBehaviour:
     Resources:
     - name: TMProDialogue
       pathPrefix: TextPrinters
-      guid: 5838611042eaced44954639c4ea4d81e
+      guid: 08ae11aaf68efa6428dae5c01a33fe44
   - Id: TextPrinters/f03b6a2e-b62b-4bbc-8531-7471682c9a82
     Resources:
     - name: TMProFullscreen
@@ -156,74 +156,50 @@ MonoBehaviour:
       guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
+      guid: bb9e9fe6d87da134dbc07fa01915459b
     - name: VariableInputUI
       pathPrefix: UI
-      guid: bb95f484e341dcd4391a572f22b7d067
+      guid: 6a32a47eeefd8384290fd144778fbd2a
     - name: PauseUI
       pathPrefix: UI
       guid: 480f5db62ea305c46b89a86496d2a0c9
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: QuestLog
+      pathPrefix: UI
+      guid: 8cb7867bbfcbf394e9e9e0ccb7984451
   - Id: Characters/9400bc01-c5f7-4e2c-8113-cf9174ec50a7
     Resources:
-    - name: Aiko_Cat_Blazer_Frown
+    - name: Base
       pathPrefix: Characters/Aiko
       guid: a0d08212961e96d49849b7e271e7a476
-    - name: Aiko_Cat_Blazer_Closed_Frown
+    - name: Shame
       pathPrefix: Characters/Aiko
       guid: 19c6cf4e73d305d4781ef088a80a1667
-    - name: Aiko_Cat_Blazer_Closed_Frown_Blush
+    - name: Smile
       pathPrefix: Characters/Aiko
       guid: 0306d00910acc0945aa8975e12774ecd
-    - name: Aiko_Cat_Blazer_Closed_Open
-      pathPrefix: Characters/Aiko
-      guid: 7e041dcc015e6e44495f6c1b45b1604a
-    - name: Aiko_Cat_Blazer_Closed_Open_Blush
-      pathPrefix: Characters/Aiko
-      guid: 265195a7505c4424285fad657b9da5be
-    - name: Aiko_Cat_Blazer_Closed_Smile
-      pathPrefix: Characters/Aiko
-      guid: 730929bddac67a14ba8811a679bae0f4
-    - name: Aiko_Cat_Blazer_Closed_Smile_Blush
-      pathPrefix: Characters/Aiko
-      guid: 83bdbcdbb19bb4a4ea1a51484de36515
-    - name: Aiko_Cat_Blazer_Frown_Blush
-      pathPrefix: Characters/Aiko
-      guid: dbbd6443fc2be7643a32c9fcf9c1bb78
-    - name: Aiko_Cat_Blazer_Open
+    - name: Open
       pathPrefix: Characters/Aiko
       guid: 4618a78b325f65645954e5890a2d4799
-    - name: Aiko_Cat_Blazer_Open_Blush
-      pathPrefix: Characters/Aiko
-      guid: 534499d582a7f6d4290475b4d76ee6ab
-    - name: Aiko_Cat_Blazer_Smile
+    - name: Smile2
       pathPrefix: Characters/Aiko
       guid: 57fbcee3d384d9e4bbab9e56801dd948
-    - name: Aiko_Cat_Blazer_Smile_Blush
-      pathPrefix: Characters/Aiko
-      guid: 956c69423ebaff949aa290d220d32ce2
   - Id: Characters/0e497faa-8c83-4b6f-a39a-88c7ff0717c5
     Resources:
-    - name: Miho_Casual_Frown
+    - name: Base
       pathPrefix: Characters/Miho
       guid: e442bf15a6d3c3845a4a10951b043054
-    - name: Miho_Casual_Frown_Blush
+    - name: Shame
       pathPrefix: Characters/Miho
       guid: 7c46b1d9c4ca6a143949a4d52e0d0a3f
-    - name: Miho_Casual_Open
+    - name: Open
       pathPrefix: Characters/Miho
       guid: 34cb6e157b8469c4f8f68b1cd735f881
-    - name: Miho_Casual_Open_Blush
-      pathPrefix: Characters/Miho
-      guid: 1d228a1d6ef0c754d8cb28bdbd7219b6
-    - name: Miho_Casual_Smile
+    - name: Smile
       pathPrefix: Characters/Miho
       guid: cdeff0bf968e0954db12e58a7f614325
-    - name: Miho_Casual_Smile_Blush
-      pathPrefix: Characters/Miho
-      guid: c5d136388df1d2c4191c7b39121498fd
   - Id: Characters/5b4840bc-cbc4-4015-969f-692203600904
     Resources:
     - name: boy a_casual_angry
@@ -257,56 +233,108 @@ MonoBehaviour:
     Resources:
     - name: 01
       pathPrefix: Backgrounds/MainBackground
-      guid: 5d9045b9774169b4685e7bd07231b108
-    - name: 02
+      guid: e57c4b151e9abb1419f1d824aec5bd4e
+    - name: Loc1Bg
       pathPrefix: Backgrounds/MainBackground
-      guid: 3ac3ff8f3c2602948b09d0a41a972441
-    - name: 03
+      guid: 181f076af41ee9449843d53e8227cbc7
+    - name: Loc2Bg
       pathPrefix: Backgrounds/MainBackground
-      guid: 64c975659e06ce04083d0e360110e44c
-    - name: 04
+      guid: 80ab4ff15383a9c45a176befcf4d944d
+    - name: Loc3Bg
       pathPrefix: Backgrounds/MainBackground
-      guid: 3973b0f11bd158d438064409a8e065ea
-    - name: 05
+      guid: 31d31865886493640bb4c29c9ef398d7
+    - name: Map
       pathPrefix: Backgrounds/MainBackground
-      guid: ec8af1f9bc3594d41817e2e349606c54
-    - name: 06
-      pathPrefix: Backgrounds/MainBackground
-      guid: f1747adfa73ffbe4baf36f6985e104be
-    - name: 07
-      pathPrefix: Backgrounds/MainBackground
-      guid: bd8a866c019c4c94682819142d68d60a
-    - name: 08
-      pathPrefix: Backgrounds/MainBackground
-      guid: 8cda9d0faf923b744898ed1d96228aa7
-    - name: 09
-      pathPrefix: Backgrounds/MainBackground
-      guid: 3e154beb248cc9b439cfdd02f84adf30
-    - name: 10
-      pathPrefix: Backgrounds/MainBackground
-      guid: 8c8f4b8ef4dc32b4e96ef4ea5e9028d0
-    - name: 11
-      pathPrefix: Backgrounds/MainBackground
-      guid: 68b89a0f0bf79c54fb1441ddfd6c0d99
-    - name: 12
-      pathPrefix: Backgrounds/MainBackground
-      guid: b9c691c6dd0110e4d883d179624c9089
-    - name: 13
-      pathPrefix: Backgrounds/MainBackground
-      guid: 44f40a052f306d64385015b715b2095b
-    - name: 14
-      pathPrefix: Backgrounds/MainBackground
-      guid: 8420922f439538c46b0183e78d17285d
-    - name: 15
-      pathPrefix: Backgrounds/MainBackground
-      guid: 799af84507e0cea448d2956fd080a821
+      guid: 4d43f89d32758e348ba6a7e61a64e054
   - Id: Scripts
     Resources:
     - name: StartNovel
       pathPrefix: Scripts
       guid: 895699e2f3169eb44801a13831604047
-    - name: Miho
+    - name: Map
       pathPrefix: Scripts
-      guid: aabb64aa9d6e46d41a7310fbd03ae23a
+      guid: 6de1803b363cc3f45b114ed8d90b7c7d
+    - name: Location1
+      pathPrefix: Scripts
+      guid: 295fd2299f549a44baaee2a44e8341a0
+    - name: Location2
+      pathPrefix: Scripts
+      guid: f4db451a1fcb64842a592b3ad52a49a7
+    - name: Location3
+      pathPrefix: Scripts
+      guid: 673358ca6ef44b84bbe1fb686eaedac4
+    - name: Location2_1
+      pathPrefix: Scripts
+      guid: ed2ab50a1cf5b1a48a0b3e15e43fc83a
+    - name: Location1_1
+      pathPrefix: Scripts
+      guid: 61f0b49df0a20434d98ebd062cb16a4b
   - Id: Characters/b0d09574-41ef-4625-a89b-01d77677f0df
-    Resources: []
+    Resources:
+    - name: Normal
+      pathPrefix: Characters/Player
+      guid: bab2f62c1616ee8499dfae99e69b4b53
+    - name: Angry
+      pathPrefix: Characters/Player
+      guid: a6a9430ed6fcc714099b5eeb695d4da4
+    - name: Confused
+      pathPrefix: Characters/Player
+      guid: 92b4040f1e1a29546b412c0b0b0461e6
+    - name: Cry
+      pathPrefix: Characters/Player
+      guid: 101a960d3403dac4fa100b68217a7624
+    - name: Happy
+      pathPrefix: Characters/Player
+      guid: ebac7a62ddb48564da2178123491f500
+    - name: Nervous
+      pathPrefix: Characters/Player
+      guid: d4e7b4cf088d7254b955d878d9772601
+    - name: Sad
+      pathPrefix: Characters/Player
+      guid: 4459e8cc29508b94982deaa182a652bf
+    - name: Shocked
+      pathPrefix: Characters/Player
+      guid: 49dde515e02bf3d46a1a8b01556b2bed
+  - Id: Backgrounds/2e057155-1a95-4f21-9067-f4da8db6a667
+    Resources:
+    - name: map
+      pathPrefix: Backgrounds/MapBackgrounds
+      guid: 4d43f89d32758e348ba6a7e61a64e054
+  - Id: Audio
+    Resources:
+    - name: guitar
+      pathPrefix: Audio
+      guid: 4d6ba96725be32d4090ec28a8b67b01f
+    - name: acoustic
+      pathPrefix: Audio
+      guid: 8d1f5bbcaa0cb384895ff43a3177e4c0
+    - name: collect
+      pathPrefix: Audio
+      guid: ba741ce021e39fb40bc1e65cf81291c2
+    - name: bonus
+      pathPrefix: Audio
+      guid: d3cfdd6e8518b1e49ac8d8483ae221cf
+    - name: organic
+      pathPrefix: Audio
+      guid: b786f14e9238d3a47880c27b42ad3a44
+    - name: menu
+      pathPrefix: Audio
+      guid: 3d65a1cf8f1bdf144953e67c946290f4
+    - name: fanfare
+      pathPrefix: Audio
+      guid: 20dbf2e40bdeaa747b7e59befc48a8a0
+    - name: rose
+      pathPrefix: Audio
+      guid: a4bd889b34ebe104cb8d8bbb97709edb
+    - name: piano
+      pathPrefix: Audio
+      guid: 10f44493b9a47f84a87f9353bc0f3ce7
+    - name: rampb
+      pathPrefix: Audio
+      guid: 7b8cc6ac958d548449dc761811a2673d
+    - name: Success
+      pathPrefix: Audio
+      guid: 6288c65f2534ffd408d4fec930554171
+    - name: drum
+      pathPrefix: Audio
+      guid: d45afde747e9a784f8cfcd5c9ec71caa

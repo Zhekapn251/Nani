@@ -1,24 +1,36 @@
+@set G_Name="Player"
+@set G_Loc3=true
+@set G_PhoneMiho=false
+@set G_PhoneAiko=false
+@set G_PhonePlayer=false
+@set G_Quest1=""
+@set G_Quest2=""
+@set G_Quest3=""
+@set G_Quest4=""
+@set G_Quest5=""
 
 @back 01
-@char Aiko pos:0,0
-@char Aiko pos:50,0 time:1
+;@loadMiniGame
+
+@char Player pos:0,0 
+@char Player pos:70,0 time:1
+;@loadScene
+@bgm menu
+<i>Gazes converge upon you, mysterious wanderer, and the time has come to make a choice. Give a name to your legend...</i>
+<i>"What is your name?" echoes in the endless void.</i>
 @input name summary:"Choose your name." 
-; Stop is required to halt script execution until user submits the input.
 @stop
 @set G_Name=name
-@char Aiko.Aiko_Cat_Blazer_Closed_Frown
-Aiko: "Hello, {G_Name}. Nice to meet you! I've found something incredible, a quest that might just change everything."
-Player: "Hi, Aiko. Nice to meet you too. What's this quest about?"
-Aiko: "Our world, as you know, is a blend of advanced tech and nature. But there's more—hidden knowledge and power, lost since ancient times. I discovered a map, an artifact leading to a city where the past and future merge, holding secrets to this power."
-Player: "Sounds like quite the adventure. But why me?"
-Aiko: "This quest isn't just about brute force or simple exploration. It's about understanding the fabric of our reality, solving complex puzzles that blend the digital with the physical. Your skills in technology, game development, and digital creation are exactly what we need to navigate the challenges ahead and unlock the mysteries of the lost city."
-Player: "I see. Unraveling the mysteries of the past with our present skills. Count me in. What's our first step?"
-Aiko: "Excellent! Our first step is to decipher the map further and plan our journey. The road ahead is fraught with dangers, but I believe together we can uncover the secrets of the lost city and perhaps, change the course of our world."
-@choice "Continue {G_Name} from the next line"
-@choice "Load another from start" goto:Miho
-@choice handler:ButtonArea button:Buttons/click pos:50,50 goto:Miho
-@stop
-@char Aiko
-@wait 2
-@char Aiko pos:100,0 time:1
-@stop
+Hello {G_Name}.
+<i>As soon as the name is affirmed, your story unfolds like dawn, dissolving the darkness of the unknown and opening the gates to a new reality.</i>
+<i>Onward, to the first chapter of your epic.</i>
+@hidePrinter
+@char Player transition:dissolve
+@stopBgm
+@hideChars
+@goto Location1
+
+
+
+
+

@@ -1,0 +1,15 @@
+@back Loc3Bg
+@stopBgm
+@hideChars
+@stopBgm
+@bgm organic
+@choice handler:ButtonArea button:Buttons/Iphone pos:250,100 
+@stop
+@set G_Quest4="<s>Find iphone</s>"
+@sfx Success
+@set G_Loc3=false
+@stopBgm
+@hideChars
+@goto Location2_1
+@stop
+

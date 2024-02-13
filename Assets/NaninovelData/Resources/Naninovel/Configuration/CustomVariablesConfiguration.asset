@@ -14,6 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PredefinedVariables:
   - name: G_Name
-    value: '"JO"'
+    value: '"Player"'
   - name: G_N
     value: '"JO"'
+  - name: G_Quest1
+    value: '""'
+  - name: G_Quest2
+    value: '""'
+  - name: G_Quest3
+    value: '""'
+  - name: G_Quest4
+    value: '""'
+  - name: G_Quest5
+    value: '""'
+  - name: G_QuestEnabled
+    value: true
+  - name: G_Loc3
+    value: true
+  - name: G_PhoneMiho
+    value: false
+  - name: G_PhoneAiko
+    value: false
+  - name: G_PhonePlayer
+    value: false
