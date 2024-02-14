@@ -1,0 +1,25 @@
+; English <en> to English <en> localization document for `StartNovel` naninovel script
+
+# df034d8c
+; <i>Gazes converge upon you, mysterious wanderer, and the time has come to make a choice. Give a name to your legend...</i>
+<i>Gazes converge upon you, mysterious wanderer, and the time has come to make a choice. Give a name to your legend...</i>
+
+# be02fefe
+; <i>"What is your name?" echoes in the endless void.</i>
+<i>"What is your name?" echoes in the endless void.</i>
+
+# 81cca336
+; @input name summary:"Choose your name." 
+@input name summary:"Choose your name." 
+
+# 2d50528e
+; Hello {G_Name}.
+Hello {G_Name}.
+
+# db151cda
+; <i>As soon as the name is affirmed, your story unfolds like dawn, dissolving the darkness of the unknown and opening the gates to a new reality.</i>
+<i>As soon as the name is affirmed, your story unfolds like dawn, dissolving the darkness of the unknown and opening the gates to a new reality.</i>
+
+# 4a559b15
+; <i>Onward, to the first chapter of your epic.</i>
+<i>Onward, to the first chapter of your epic.</i>

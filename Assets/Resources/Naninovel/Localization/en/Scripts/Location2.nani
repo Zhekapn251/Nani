@@ -1,0 +1,29 @@
+; English <en> to English <en> localization document for `Location2` naninovel script
+
+# 84f7ba28
+; Player: Hello, I'm on a quest for something precious. Might you assist me?
+Player: Hello, I'm on a quest for something precious. Might you assist me?
+
+# 2f04ac59
+; Miho: Ah, a seeker on a noble journey! I would offer my aid, but alas, I have none to give. 
+Miho: Ah, a seeker on a noble journey! I would offer my aid, but alas, I have none to give. 
+
+# c00ea151
+; Miho: However, I wish you the brightest of fortunes on your path.
+Miho: However, I wish you the brightest of fortunes on your path.
+
+# a7e8d97a
+; @choice Continue button:Buttons/resumeGame pos:0,0
+@choice Continue button:Buttons/resumeGame pos:0,0
+
+# 32f503cb
+; Player: Any guidance you could provide would be invaluable.
+Player: Any guidance you could provide would be invaluable.
+
+# 72bb4f72
+; Miho: In that case, seek the technology store. 
+Miho: In that case, seek the technology store. 
+
+# 7cb0c453
+; Miho: There, among circuits and wires, you might find what you're searching for.
+Miho: There, among circuits and wires, you might find what you're searching for.

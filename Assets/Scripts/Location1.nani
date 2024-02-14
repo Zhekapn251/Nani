@@ -20,7 +20,7 @@ Aiko: I cannot say for sure, but begin your search at the hospital.
 Aiko: Your quest will be fraught with trials.
 @showUI QuestLog
 Aiko: Here is Monitor, it will show you progress of youre task. 
-@set G_Quest1="<s>Quest received</s>"
+@set G_Quest1=1
 @char Player look:Right pos:25,0 
 Player: Ok 
 @hidePrinter

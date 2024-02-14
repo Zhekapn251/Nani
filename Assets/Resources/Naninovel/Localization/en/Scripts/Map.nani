@@ -1,0 +1,10 @@
+; English <en> to English <en> localization document for `Map` naninovel script
+
+# 10c9154d
+; @choice handler:ButtonArea button:Buttons/Loc1 pos:-250,-200 goto:Location1_1
+
+# a340af81
+; @choice handler:ButtonArea button:Buttons/Loc2 pos:25,220 goto:Location2_1
+
+# c352da14
+; @choice handler:ButtonArea button:Buttons/Loc3 pos:150,-20 goto:Location3

@@ -3,13 +3,15 @@
 @hideChars
 @stopBgm
 @bgm organic
+@set G_Quest4=1
+@wait 1
 @choice handler:ButtonArea button:Buttons/Iphone pos:250,100 
 @stop
-@set G_Quest4="<s>Find iphone</s>"
 @sfx Success
+@wait 1
+@set G_Quest4=2
 @set G_Loc3=false
 @stopBgm
 @hideChars
 @goto Location2_1
 @stop
-

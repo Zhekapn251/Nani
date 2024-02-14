@@ -18,15 +18,15 @@ MonoBehaviour:
   - name: G_N
     value: '"JO"'
   - name: G_Quest1
-    value: '""'
+    value: 0
   - name: G_Quest2
-    value: '""'
+    value: 0
   - name: G_Quest3
-    value: '""'
+    value: 0
   - name: G_Quest4
-    value: '""'
+    value: 0
   - name: G_Quest5
-    value: '""'
+    value: 0
   - name: G_QuestEnabled
     value: true
   - name: G_Loc3

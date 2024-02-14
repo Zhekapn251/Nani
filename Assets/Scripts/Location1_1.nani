@@ -1,7 +1,6 @@
 @back Loc1Bg
 @stopBgm
 @hideChars
-@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
 @goto .Main if:"(!G_PhonePlayer && !G_PhoneMiho && !G_PhoneAiko)"
 @goto .Kind if:(G_PhoneAiko)
 @goto .Angry if:(!G_PhoneAiko)
@@ -22,19 +21,28 @@ Miho: And I was there for you in your darkest hour. My claim is just as strong.
 @choice "Give in to Aiko" goto:.Aiko
 @choice "Keep it" goto:.Player
 @stop 
+
 #Miho
+@set G_Quest5=2
+@wait 1
 @hideUI QuestLog
 @set G_PhoneMiho=true
 @stopBgm
 @hideChars
 @goto Map
+
 #Aiko 
+@set G_Quest5=2
+@wait 1
 @hideUI QuestLog
 @set G_PhoneAiko=true
 @stopBgm
 @hideChars
 @goto Map
+
 #Player
+@set G_Quest5=2
+@wait 1
 @hideUI QuestLog
 @set G_PhonePlayer=true
 @stopBgm
@@ -43,6 +51,7 @@ Miho: And I was there for you in your darkest hour. My claim is just as strong.
 @stop
 
 #Angry
+@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
 @bgm drum
 @char Aiko.Shame pos:90,0
 @char Aiko.Base pos:70,0 time:2
@@ -55,6 +64,7 @@ Player: It was a difficult choice, and not a reflection of your worth.
 @stop 
 
 #Kind
+@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
 @bgm piano
 @char Aiko.Smile2 pos:90,0
 @char Aiko.Smile2 pos:70,0 time:2

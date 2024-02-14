@@ -1,0 +1,29 @@
+; English <en> to Ukrainian <uk> localization document for `Location2` naninovel script
+
+# 84f7ba28
+; Player: Hello, I'm on a quest for something precious. Might you assist me?
+Player: Привіт, я у пошуках чогось цінного. Чи можеш ти мені допомогти?
+
+# 2f04ac59
+; Miho: Ah, a seeker on a noble journey! I would offer my aid, but alas, I have none to give. 
+Miho: Ага, шукач на благородному шляху! Я б запропонувала свою допомогу, але на жаль, у мене немає чого дати. 
+
+# c00ea151
+; Miho: However, I wish you the brightest of fortunes on your path.
+Miho: Тим не менш, я бажаю тобі найясніших удач на твоєму шляху.
+
+# a7e8d97a
+; @choice Continue button:Buttons/resumeGame pos:0,0
+@choice Продовжуй button:Buttons/resumeGame pos:0,0
+
+# 32f503cb
+; Player: Any guidance you could provide would be invaluable.
+Player: Будь-яка порада, яку ти міг би дати, була б безцінною.
+
+# 72bb4f72
+; Miho: In that case, seek the technology store. 
+Miho: В такому разі шукайте магазин техніки. 
+
+# 7cb0c453
+; Miho: There, among circuits and wires, you might find what you're searching for.
+Miho: Там, серед схем та проводів, ви можете знайти те, що шукаєте.

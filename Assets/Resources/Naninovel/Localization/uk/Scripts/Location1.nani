@@ -1,0 +1,45 @@
+; English <en> to Ukrainian <uk> localization document for `Location1` naninovel script
+
+# 5ab40187
+; <i>You approached the most beautiful woman in the world to strike up a conversation.</i>
+<i>Ти підійшов до найчарівнішої жінки у світі, щоб розпочати розмову.</i>
+
+# 19788cac
+; Aiko: Hello, my name is Aiko.
+Aiko: Привіт, мене звати Айко.
+
+# aa3e48c4
+; Player: Greetings, pretty. I'm {G_Name}.
+Player: Вітання, красеню. Я {G_Name}.
+
+# e9769e61
+; Player: Would you like to date me? 
+Player: Чи не хотів би ти зі мною побачення? 
+
+# 2464214d
+; Aiko: I would be delighted, but I am far too splendid for you as you are now. 
+Aiko: Було б чудово, але я занадто чудова для тебе зараз. 
+
+# a8274430
+; Aiko: You must find a mysterious item to win my heart. 
+Aiko: Тобі потрібно знайти таємничий предмет, щоб завоювати моє серце. 
+
+# a69e7cc4
+; Player: What is it location?
+Player: Де його можна знайти?
+
+# b7cf70df
+; Aiko: I cannot say for sure, but begin your search at the hospital.
+Aiko: Не можу сказати напевно, але розпочни свій пошук у лікарні.
+
+# 821245d
+; Aiko: Your quest will be fraught with trials.
+Aiko: Твоє завдання буде повне випробувань.
+
+# 348e1bf1
+; Aiko: Here is Monitor, it will show you progress of youre task. 
+Aiko: Ось Монітор, він покаже тобі прогрес твого завдання. 
+
+# a1cbb3b2
+; Player: Ok 
+Player: Гаразд. 

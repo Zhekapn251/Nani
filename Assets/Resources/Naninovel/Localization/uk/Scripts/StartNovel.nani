@@ -1,0 +1,25 @@
+; English <en> to Ukrainian <uk> localization document for `StartNovel` naninovel script
+
+# df034d8c
+; <i>Gazes converge upon you, mysterious wanderer, and the time has come to make a choice. Give a name to your legend...</i>
+<i>На вас зосереджуються погляди, таємничий мандрівнику, і настав час зробити вибір. Назвіть свою легенду...</i>
+
+# be02fefe
+; <i>"What is your name?" echoes in the endless void.</i>
+<i>"Яке твоє ім'я?" лунає в безкрайньому порожнечі.</i>
+
+# 81cca336
+; @input name summary:"Choose your name." 
+@input name summary:"Оберіть своє ім'я." 
+
+# 2d50528e
+; Hello {G_Name}.
+Привіт {G_Name}.
+
+# db151cda
+; <i>As soon as the name is affirmed, your story unfolds like dawn, dissolving the darkness of the unknown and opening the gates to a new reality.</i>
+<i>Тільки-но ім'я буде підтверджено, ваша історія розгортається, як світанок, розвіюючи темряву невідомості та відкриваючи ворота у нову реальність.</i>
+
+# 4a559b15
+; <i>Onward, to the first chapter of your epic.</i>
+<i>Вперед, до першої глави вашого епосу.</i>

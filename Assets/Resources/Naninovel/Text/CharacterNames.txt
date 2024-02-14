@@ -1,4 +1,0 @@
-Aiko: 
-Miho: 
-Player: {G_Name}
-Shounen: 

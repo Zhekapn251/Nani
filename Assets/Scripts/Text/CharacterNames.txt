@@ -1,0 +1,3 @@
+Aiko: Aiko
+Miho: Miho
+Player: {G_Name}

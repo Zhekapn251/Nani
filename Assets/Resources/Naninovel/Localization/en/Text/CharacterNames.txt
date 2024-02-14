@@ -1,0 +1,5 @@
+; English <en> to English <en> localization document for `CharacterNames` managed text document
+
+Aiko: Aiko
+Miho: Miho
+Player: {G_Name}

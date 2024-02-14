@@ -1,7 +1,0 @@
-@back 02
-@char Miho pos:0,0
-@char Miho pos:50,0 time:1
-@char Miho.Miho_Casual_Smile_Blush
-@wait 2
-@char Miho pos:100,0 time:1
-@stop

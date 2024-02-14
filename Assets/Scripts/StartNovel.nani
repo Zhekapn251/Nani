@@ -3,11 +3,12 @@
 @set G_PhoneMiho=false
 @set G_PhoneAiko=false
 @set G_PhonePlayer=false
-@set G_Quest1=""
-@set G_Quest2=""
-@set G_Quest3=""
-@set G_Quest4=""
-@set G_Quest5=""
+@set G_Quest1=0
+@set G_Quest2=0
+@set G_Quest3=0
+@set G_Quest4=0
+@set G_Quest5=0
+
 
 @back 01
 ;@loadMiniGame
@@ -29,8 +30,3 @@ Hello {G_Name}.
 @stopBgm
 @hideChars
 @goto Location1
-
-
-
-
-

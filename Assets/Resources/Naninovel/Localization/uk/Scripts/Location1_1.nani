@@ -1,0 +1,45 @@
+; English <en> to Ukrainian <uk> localization document for `Location1_1` naninovel script
+
+# 6298ca37
+; Player: I've come across an iPhone that should go to the one who deserves it most. Why should it be you?
+Player: Я знайшов айфон, який повинен дістатися тому, хто його найбільше заслуговує. Чому це маєш бути ти?
+
+# 38b89433
+; Aiko: We both want it, but I deserve it more. I have always supported you.
+Aiko: Ми обидва його хочемо, але я заслуговую його більше. Я завжди тебе підтримувала.
+
+# 3c88c1cd
+; Miho: And I was there for you in your darkest hour. My claim is just as strong.
+Miho: А я була поруч з тобою в твою найтемнішу годину. Моя вимога не менш сильна.
+
+# 2a05fc48
+; <i> You need make a decision</i>
+<i>Тобі потрібно прийняти рішення</i>
+
+# e02d9ae6
+; @choice "Give phone to Miho" goto:.Miho
+@choice "Дай телефон Міхо" goto:.Miho
+
+# 641259df
+; @choice "Give in to Aiko" goto:.Aiko
+@choice "Віддай Айко" goto:.Aiko
+
+# 492c1bc3
+; @choice "Keep it" goto:.Player
+@choice "Забери собі" goto:.Player
+
+# 7ecdf7eb
+; Aiko: How could you? I believed in you, and you've let me down!
+Aiko: Як ти міг? Я в тебе вірила, і ти підвів мене!
+
+# 12dd4303
+; Player: It was a difficult choice, and not a reflection of your worth.
+Player: Це було складне рішення, і це не відображення твоєї цінності.
+
+# 85f1dad
+; Aiko: You've made the right choice. I knew you were wise and kind-hearted.
+Aiko: Ти зробив правильний вибір. Я знала, що ти мудрий і добросердечний.
+
+# 5d3cabf0
+; Player: I appreciate your support, and I hope this shows my gratitude.
+Player: Я ціную твою підтримку, і сподіваюся, що це покаже мою вдячність.
