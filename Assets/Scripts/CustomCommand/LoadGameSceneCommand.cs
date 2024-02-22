@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 [CommandAlias("LoadGameScene")]
 public class LoadGameSceneCommand : Command
 {
+    [ParameterAlias("")]
     public StringParameter SceneName;  
 
     public override async UniTask ExecuteAsync(AsyncToken asyncToken = default)
@@ -24,4 +25,4 @@ public class LoadGameSceneCommand : Command
             //Debug.Log("Waiting for scene to close...");
         }
     }
-}
+}   

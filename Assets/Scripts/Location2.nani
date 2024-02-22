@@ -15,7 +15,7 @@ Miho: However, I wish you the brightest of fortunes on your path.
 @wait 1
 @set G_Quest2=1  
 @wait 2
-@LoadGameScene SceneName:Demo
+@LoadGameScene Demo
 ;@choice Continue button:Buttons/resumeGame pos:0,0
 ;@stop
 @set G_Quest2=2
