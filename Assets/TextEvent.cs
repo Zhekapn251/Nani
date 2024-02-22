@@ -12,14 +12,10 @@ public class TextEvent : MonoBehaviour
     
     public void StrikeThroughInt(int mode)
     {
-        Debug.Log("variable name " + _variableName);
-        Debug.Log("name " + name);
         var manager = Engine.GetService<ICustomVariableManager>();
         var result = manager.GetVariableValue(_variableName);
-        Debug.Log(result);
         mode = Int32.Parse(result);
-        Debug.Log(mode);
-         
+
         switch (mode) 
         {
            case 0:

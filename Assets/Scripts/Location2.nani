@@ -13,11 +13,11 @@ Miho: Ah, a seeker on a noble journey! I would offer my aid, but alas, I have no
 Miho: However, I wish you the brightest of fortunes on your path.
 @set G_Quest1=2
 @wait 1
-@set G_Quest2=1
+@set G_Quest2=1  
 @wait 2
-@loadScene
-@choice Continue button:Buttons/resumeGame pos:0,0
-@stop
+@LoadGameScene SceneName:Demo
+;@choice Continue button:Buttons/resumeGame pos:0,0
+;@stop
 @set G_Quest2=2
 @char Miho.Smile look:Right pos:25,0 scale:1,1
 @char Player.Happy look:Left pos:75,0  scale:1.1,1.1
