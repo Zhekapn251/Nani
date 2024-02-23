@@ -338,3 +338,10 @@ MonoBehaviour:
     - name: drum
       pathPrefix: Audio
       guid: d45afde747e9a784f8cfcd5c9ec71caa
+  - Id: ChoiceHandlers/338c4cce-6584-481b-85b9-418affef77b4
+    Resources:
+    - name: ButtonArea2
+      pathPrefix: ChoiceHandlers
+      guid: bf1414e7b9ecb634aa0546dcd58e7d59
+  - Id: Unlockables
+    Resources: []

@@ -51,7 +51,7 @@ Miho: And I was there for you in your darkest hour. My claim is just as strong.
 @stop
 
 #Angry
-@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
+@choice handler:ButtonArea2 button:Buttons/map1  goto:Map
 @bgm drum
 @char Aiko.Shame pos:90,0
 @char Aiko.Base pos:70,0 time:2
@@ -64,7 +64,7 @@ Player: It was a difficult choice, and not a reflection of your worth.
 @stop 
 
 #Kind
-@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
+@choice handler:ButtonArea2 button:Buttons/map1  goto:Map
 @bgm piano
 @char Aiko.Smile2 pos:90,0
 @char Aiko.Smile2 pos:70,0 time:2

@@ -13,6 +13,9 @@
 @back 01
 ;@loadMiniGame
 
+
+
+
 @char Player pos:0,0 
 @char Player pos:70,0 time:1
 ;@loadScene

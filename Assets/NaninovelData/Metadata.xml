@@ -77,6 +77,11 @@
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
+        &lt;Id&gt;ButtonArea2&lt;/Id&gt;
+        &lt;Type&gt;ChoiceHandlers&lt;/Type&gt;
+        &lt;Appearances /&gt;
+      &lt;/Actor&gt;
+      &lt;Actor&gt;
         &lt;Id&gt;Dialogue&lt;/Id&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
@@ -622,6 +627,10 @@
       &lt;Resource&gt;
         &lt;Path&gt;drum&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;ButtonArea2&lt;/Path&gt;
+        &lt;Type&gt;ChoiceHandlers&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants /&gt;

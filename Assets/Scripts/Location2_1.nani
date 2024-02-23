@@ -26,7 +26,7 @@ Player: Let's chech cafe again
 
 #Angry
 @bgm drum
-@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map
+@choice handler:ButtonArea2 button:Buttons/map1  goto:Map
 @char Miho.Base look:Right pos:20,0
 @char Miho.Base look:Right pos:25,0 time:2
 @char Player.Normal look:Left pos:90,0 
@@ -36,10 +36,10 @@ Player: I'm sorry, it wasn't an easy decision, but I had to choose.
 @stopBgm
 @hideChars
 @stop 
-
+;250,500
 #Kind
 @bgm piano
-@choice handler:ButtonArea button:Buttons/Map pos:250,500 goto:Map 
+@choice handler:ButtonArea2 button:Buttons/map1  goto:Map
 @char Miho.Smile look:Right pos:20,0
 @char Miho.Smile look:Right pos:25,0 time:2
 @char Player.Normal look:Left pos:90,0 
